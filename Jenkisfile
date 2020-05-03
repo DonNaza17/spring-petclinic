@@ -15,7 +15,7 @@
        stage('Docker Build') {
         agent any
         steps {
-          sh 'docker build -t uees/spring-petclinic:1.08.'
+          sh 'docker build -t uees/spring-petclinic:1.08 .'
         }
       }
    }
